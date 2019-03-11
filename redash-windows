@@ -1,0 +1,12 @@
+download docker-compose and signup in https://hub.docker.com/
+
+download redash version from https://github.com/getredash/redash/releases   and then cd redash folder
+
+run in cmd  : docker-compose -f docker-compose.production.yml run --rm server create_db
+
+run in cmd  :docker-compose -f docker-compose.production.yml up
+
+if you have this error:ERROR: unauthorized: authentication required  run docker logout and after docker login and connect with your account and repeat the command
+
+connect to http://localhost:5000
+
